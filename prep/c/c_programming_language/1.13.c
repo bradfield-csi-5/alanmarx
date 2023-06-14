@@ -14,7 +14,7 @@ int main() {
 
     while (word_lengths[number] == 0) {
       while ((character = getchar()) != '\n' && character != ' ' && character != '\t') {
-        word_lengths[number]++; // inside an infinite loop
+        word_lengths[number]++;
       }
     }
   }
